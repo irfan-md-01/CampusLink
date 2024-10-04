@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error - Invalid Credentials</title>
+    <style>
+        body {
+            background-color: #1c1c1c;
+            color: #ffffff;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+            position: relative;
+        }
+
+        .container {
+            text-align: center;
+            padding: 40px;
+            border: 1px solid #ffdd00;
+            border-radius: 10px;
+            background-color: #282828;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s ease;
+        }
+
+        .container:hover {
+            transform: translateY(-5px);
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #ffdd00;
+        }
+
+        .message {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+            line-height: 1.5;
+            color: #e0e0e0;
+        }
+
+        .back-link {
+            text-decoration: none;
+            color: #282828;
+            font-weight: bold;
+            padding: 12px 24px;
+            border: 2px solid #ffdd00;
+            border-radius: 5px;
+            background-color: #ffdd00;
+            transition: background-color 0.3s, transform 0.3s;
+            font-size: 1.1em;
+            display: inline-block;
+        }
+
+        .back-link:hover {
+            background-color: #282828;
+            color: #ffdd00;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2em;
+            }
+
+            .message {
+                font-size: 1em;
+            }
+
+            .back-link {
+                font-size: 0.9em;
+                padding: 10px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Error</h1>
+        <p class="message">You have entered an incorrect email or password.</p>
+        <a href="/login" class="back-link">Try Again</a>
+    </div>
+</body>
+</html>

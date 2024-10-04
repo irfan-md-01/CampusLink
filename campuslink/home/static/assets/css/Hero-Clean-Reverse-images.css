@@ -1,0 +1,198 @@
+.fit-cover {
+  object-fit: cover;
+}
+
+.form-root {
+  position: relative;
+  height: 100%;
+  font-family: sans-serif;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow-y: auto;
+}
+
+.form-container, .form-container2, .form-container3, .form-container4, .form-container5, .form-container6, .form-container7, .form-container8, .form-container9 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.form-title {
+  color: #4c4b16;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.form-backgroundShadow {
+  width: 630px;
+  padding: 50px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 10px 20px 30px 0px rgba(77, 77, 77, 0.08);
+}
+
+.form-fieldset, .form-fieldset2, .form-fieldset3, .form-fieldset4 {
+  display: flex;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.form-input, .form-input2, .form-input3, .form-input4, .form-input5, .form-input6, .form-input7 {
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  background-color: #f3efed;
+  box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-label, .form-label2, .form-label3, .form-label4, .form-label5, .form-label6, .form-label7, .form-label8 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.form-firstName, .form-lastName, .form-middleName, .form-rollNo, .form-email, .form-phoneNumber, .form-division, .form-branch {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #4146e0;
+  margin-bottom: 5px;
+}
+
+.form-options {
+  background-color: rgb(218,214,163);
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('/assets/options.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.form-pleaseSelect {
+  font-size: 16px;
+  color: #000;
+  margin-top: 10px;
+}
+
+.section-root {
+}
+
+.section-root {
+  position: relative;
+  height: 491px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #f7f1e5;
+  padding: 20px;
+}
+
+.heading-active-courses {
+  color: #102136;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 20px;
+}
+
+.section {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.course-column {
+  flex: 1;
+  max-width: 25%;
+  padding: 10px;
+}
+
+.course-widget {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.course-title {
+  color: #102136;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 15px;
+}
+
+.button-wrapper {
+  margin-bottom: 15px;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 130px;
+  height: 35px;
+  border-radius: 40px;
+  background-color: #898121;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #7a7218;
+}
+
+.dark-button {
+  background-color: #000;
+}
+
+.dark-button:hover {
+  background-color: #333;
+}
+
+.button-icon {
+  margin-left: 5px;
+}
+
+.logo {
+  background-size: cover;
+  background-position: center;
+  height: 150px;
+}
+
+.logo-codewar {
+  background-image: url('/assets/pccoerLogo11.jpeg');
+}
+
+.logo-hackfest {
+  background-image: url('/assets/pccoerLogo12.jpeg');
+}
+
+.logo-big-tech {
+  background-image: url('/assets/pccoerLogo122.png');
+}
+
+.logo-ai-workshop {
+  background-image: url('/assets/pccoerLogo123.jpeg');
+}
+
